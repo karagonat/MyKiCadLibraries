@@ -1042,4 +1042,17 @@ S -1725 1550 1750 -2200 0 1 0 N
 ENDDRAW
 ENDDEF
 #
+# test_delete
+#
+DEF test_delete U 0 40 Y Y 1 F N
+F0 "U" -150 300 60 H V C CNN
+F1 "test_delete" 300 -300 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -200 200 200 -200 0 1 0 N
+X test1 1 -400 100 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 #End Library
